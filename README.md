@@ -12,8 +12,11 @@ This Repository Tracks the State of the Chromium Platform to be used as base for
 ## Goals
 Getting Chromium into a shape that you can easy deploy apps on it via Open Pwa or a similar Concept. 
 
-## Todo
-- Expose CEF as ECMAScript API 
-
 ## What is this CEF?
 Chromium Embedded Framework a set of wrapper methods for the existing chrome code to modify it for special deployment needes inside other applications. Everything till the WebContent Layer without the Additional Browser Layer.
+
+## Enabled API's
+- [ ] DirektSockets
+- [ ] JSON Serialized Messaging ```\0``` terminated via process pipe
+- [ ] Aura Window Manager Flags for App Start
+- [ ] serving files via override folders for locations.
