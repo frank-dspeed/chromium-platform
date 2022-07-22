@@ -20,3 +20,10 @@ Chromium Embedded Framework a set of wrapper methods for the existing chrome cod
 - [ ] JSON Serialized Messaging ```\0``` terminated via process pipe
 - [ ] Aura Window Manager Flags for App Start
 - [ ] serving files via override folders for locations.
+
+
+## Use Case 1
+Serve a MultiPage App from a Profile Folder NativMessaging via devtools. 
+
+- We Create and Handle a App Profile 
+  - We deploy a extension to handle the app internal communication
